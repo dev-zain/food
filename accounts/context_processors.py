@@ -1,4 +1,3 @@
-from tkinter.messagebox import NO
 from vendors.models import Vendor
 
 def get_vendor(request):
