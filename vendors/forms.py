@@ -1,4 +1,3 @@
-from dataclasses import fields
 from django import forms
 from .models import Vendor
 from accounts.validators import allow_only_images_validator
