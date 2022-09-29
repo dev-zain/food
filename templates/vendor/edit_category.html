@@ -55,6 +55,7 @@
                                     {% endfor %}
 
                                     <button type="submit" class="btn btn-info"> Update </button>
+                                    <a href="{ url 'delete_category' category.id}" onclick="return confirm('Are You Sure You Want To Delete')" class="btn btn-danger"> Delete </a>
                                 </form>
                             </div>
                         </div>
